@@ -18,7 +18,7 @@
 body {
     background-image: url("./images/pattern-background-desktop.svg");
     background-repeat: no-repeat; /*чтобы картинка за заднем плане НЕ повторялась*/
-    background-size: cover; /*устанавливаем размер картинки-задника (на весь экран)*/
+    background-size: contain; /*устанавливаем размер картинки-задника (на весь экран)*/
     background-color: var(--pale-blue); /*используем глобальную переменную с цветом, объявленную выше*/
     font-family: "Red Hat Display", sans-serif;
     font-size: 16px;
@@ -30,7 +30,7 @@ body {
     color: var(--desaturated-blue);
     border-radius: 20px; /*закругление рамки*/
     overflow: hidden; /*Когда содержимое div слишком большое для "card", то его нужно спрятать*/
-    margin: 50px auto; /*50px - для верха и низа, auto - для лева и права (одинаковые значения будут присвоены дл отступов слева и справа, т.е. изображение отображается в центре экрана, без смещения*/
+    margin: 100px auto; /*50px - для верха и низа, auto - для лева и права (одинаковые значения будут присвоены дл отступов слева и справа, т.е. изображение отображается в центре экрана, без смещения*/
 }
 
 .title {
